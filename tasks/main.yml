@@ -1,6 +1,6 @@
 ---
 -   name: install haproxy
-    yum: name=haproxy state=present
+    yum: name=haproxy state=latest
     tags: haproxy
 
 -   name: start haproxy
